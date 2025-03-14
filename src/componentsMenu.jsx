@@ -1,3 +1,4 @@
+import Main from "./features/contextAdvanced";
 import IntersectionSection from "./features/useIntersactionObserver";
 
 const componentsMenu = [
@@ -8,6 +9,17 @@ const componentsMenu = [
       {
         name: "Main",
         component: <IntersectionSection />,
+      },
+    ],
+  },
+
+  {
+    title: "Context Advanced",
+    description: "Оптимизация контекста",
+    items: [
+      {
+        name: "Main",
+        component: <Main />,
       },
     ],
   },
