@@ -1,5 +1,6 @@
 import Main from "./features/contextAdvanced";
 import IntersectionSection from "./features/useIntersactionObserver";
+import Layout from "./features/imageCompare";
 
 const componentsMenu = [
   {
@@ -12,7 +13,6 @@ const componentsMenu = [
       },
     ],
   },
-
   {
     title: "Context Advanced",
     description: "Оптимизация контекста",
@@ -20,6 +20,15 @@ const componentsMenu = [
       {
         name: "Main",
         component: <Main />,
+      },
+    ],
+  },
+  {
+    title: "Image compare",
+    items: [
+      {
+        name: "Main",
+        component: <Layout />,
       },
     ],
   },
