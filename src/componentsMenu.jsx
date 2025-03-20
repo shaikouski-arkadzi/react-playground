@@ -1,6 +1,7 @@
 import Main from "./features/contextAdvanced";
 import IntersectionSection from "./features/useIntersactionObserver";
 import Layout from "./features/imageCompare";
+import MobileMenu from "./features/infinityMobileMenu/components/MobileMenu";
 
 const componentsMenu = [
   {
@@ -29,6 +30,16 @@ const componentsMenu = [
       {
         name: "Main",
         component: <Layout />,
+      },
+    ],
+  },
+  {
+    title: "Mobile menu",
+    description: "Мобильное меню с бесконечной вложенностью",
+    items: [
+      {
+        name: "Main",
+        component: <MobileMenu />,
       },
     ],
   },

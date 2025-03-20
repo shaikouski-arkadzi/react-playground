@@ -1,0 +1,95 @@
+.menuWrapper {
+  position: relative;
+}
+
+.buttonOpen {
+  padding: 1rem;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.menu {
+}
+
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 10;
+  display: none;
+}
+
+.coverShow {
+  display: block;
+}
+
+.mobileMenuLayout {
+  z-index: 11;
+  position: fixed;
+  visibility: hidden;
+  left: -100%;
+  top: 0;
+  width: 320px;
+  height: 100vh;
+  padding: 24px;
+  padding-top: 72px;
+  background-color: white;
+  box-shadow: 4px 4px 30px 5px rgba(0, 0, 0, 0.1);
+  transition-duration: 0.3s;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.mobileMenuLayoutShow {
+  visibility: visible;
+  left: 0;
+}
+
+.menuHeader {
+  background-color: #a8a8a8;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+svg {
+  width: 24px;
+  aspect-ratio: 1;
+  display: flex;
+  cursor: pointer;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.level {
+  display: flex;
+  transition: transform 0.2s;
+}
+
+.level > div {
+  min-width: calc(100% + 24px);
+}
