@@ -1,7 +1,7 @@
-import Main from "./features/contextAdvanced";
-import IntersectionSection from "./features/useIntersactionObserver";
-import Layout from "./features/imageCompare";
-import MobileMenu from "./features/infinityMobileMenu/components/MobileMenu";
+import Main from "features/contextAdvanced";
+import IntersectionSection from "features/useIntersactionObserver";
+import Layout from "features/imageCompare";
+import MobileMenu from "features/infinityMobileMenu/components/MobileMenu";
 
 const componentsMenu = [
   {

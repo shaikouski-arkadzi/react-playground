@@ -1,6 +1,6 @@
 import { useState } from "react";
-import componentsMenu from "./componentsMenu";
-import "./App.css";
+import componentsMenu from "@/componentsMenu";
+import "@/App.css";
 
 function App() {
   const [selectedComponent, setSelectedComponent] = useState(null);
