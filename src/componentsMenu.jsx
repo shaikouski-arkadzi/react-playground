@@ -1,7 +1,8 @@
 import Main from "features/contextAdvanced";
 import IntersectionSection from "features/useIntersactionObserver";
 import Layout from "features/imageCompare";
-import MobileMenu from "features/infinityMobileMenu/components/MobileMenu";
+import MobileMenu from "features/infinityMobileMenu";
+import ReactHookFormMain from "features/react-hook-form";
 
 const componentsMenu = [
   {
@@ -40,6 +41,16 @@ const componentsMenu = [
       {
         name: "Main",
         component: <MobileMenu />,
+      },
+    ],
+  },
+  {
+    title: "React Hook Form",
+    description: "Пример работы с react-hook-form библиотекой",
+    items: [
+      {
+        name: "Main",
+        component: <ReactHookFormMain />,
       },
     ],
   },
