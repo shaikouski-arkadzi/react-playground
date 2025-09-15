@@ -3,6 +3,7 @@ import IntersectionSection from "features/useIntersactionObserver";
 import Layout from "features/imageCompare";
 import MobileMenu from "features/infinityMobileMenu";
 import ReactHookFormMain from "features/react-hook-form";
+import MainUseTransition from "features/useTransition";
 
 const componentsMenu = [
   {
@@ -51,6 +52,16 @@ const componentsMenu = [
       {
         name: "Main",
         component: <ReactHookFormMain />,
+      },
+    ],
+  },
+  {
+    title: "useTransition",
+    description: "Пример оптимизации с помощью useTransition",
+    items: [
+      {
+        name: "Main",
+        component: <MainUseTransition />,
       },
     ],
   },
