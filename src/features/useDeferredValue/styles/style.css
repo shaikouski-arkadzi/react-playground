@@ -1,0 +1,18 @@
+input {
+  display: block;
+  width: 300px;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+}
+
+ul li {
+  margin: 1em;
+  list-style: disc;
+}
+
+li:hover {
+  color: red;
+  cursor: pointer;
+  background-color: #eee;
+}

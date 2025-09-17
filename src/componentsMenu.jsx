@@ -4,6 +4,7 @@ import Layout from "features/imageCompare";
 import MobileMenu from "features/infinityMobileMenu";
 import ReactHookFormMain from "features/react-hook-form";
 import MainUseTransition from "features/useTransition";
+import MainUseDeferredValue from "features/useDeferredValue";
 
 const componentsMenu = [
   {
@@ -62,6 +63,16 @@ const componentsMenu = [
       {
         name: "Main",
         component: <MainUseTransition />,
+      },
+    ],
+  },
+  {
+    title: "useDeferredValue",
+    description: "Пример оптимизации с помощью useDeferredValue",
+    items: [
+      {
+        name: "Main",
+        component: <MainUseDeferredValue />,
       },
     ],
   },
