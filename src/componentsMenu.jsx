@@ -5,6 +5,7 @@ import MobileMenu from "features/infinityMobileMenu";
 import ReactHookFormMain from "features/react-hook-form";
 import MainUseTransition from "features/useTransition";
 import MainUseDeferredValue from "features/useDeferredValue";
+import MainProgressiveImage from "./features/progressiveImage";
 
 const componentsMenu = [
   {
@@ -73,6 +74,16 @@ const componentsMenu = [
       {
         name: "Main",
         component: <MainUseDeferredValue />,
+      },
+    ],
+  },
+  {
+    title: "Progressive Image",
+    description: "Emulate 3G in DevTools for test",
+    items: [
+      {
+        name: "Main",
+        component: <MainProgressiveImage />,
       },
     ],
   },
