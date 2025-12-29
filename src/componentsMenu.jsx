@@ -5,7 +5,8 @@ import MobileMenu from "features/infinityMobileMenu";
 import ReactHookFormMain from "features/react-hook-form";
 import MainUseTransition from "features/useTransition";
 import MainUseDeferredValue from "features/useDeferredValue";
-import MainProgressiveImage from "./features/progressiveImage";
+import MainProgressiveImage from "features/progressiveImage";
+import MainAccordion from "features/accordion";
 
 const componentsMenu = [
   {
@@ -84,6 +85,16 @@ const componentsMenu = [
       {
         name: "Main",
         component: <MainProgressiveImage />,
+      },
+    ],
+  },
+  {
+    title: "Accordion",
+    description: "Using Compound Components Pattern",
+    items: [
+      {
+        name: "Main",
+        component: <MainAccordion />,
       },
     ],
   },
