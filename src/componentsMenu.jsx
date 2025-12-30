@@ -7,6 +7,7 @@ import MainUseTransition from "features/useTransition";
 import MainUseDeferredValue from "features/useDeferredValue";
 import MainProgressiveImage from "features/progressiveImage";
 import MainAccordion from "features/accordion";
+import FunctionAsChildren from "features/functionAsChildren";
 
 const componentsMenu = [
   {
@@ -95,6 +96,16 @@ const componentsMenu = [
       {
         name: "Main",
         component: <MainAccordion />,
+      },
+    ],
+  },
+  {
+    title: "Function as children",
+    description: "RenderProps",
+    items: [
+      {
+        name: "Main",
+        component: <FunctionAsChildren />,
       },
     ],
   },

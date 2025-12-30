@@ -1,0 +1,43 @@
+.searchableList {
+  margin: 2rem 0;
+}
+
+.searchableList input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #5d6273;
+  border-radius: 6px;
+  background-color: #1e2130;
+  color: white;
+  font: inherit;
+}
+
+.searchableList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.place {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.place img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.place h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #faf489;
+}
+
+.place p {
+  margin: 0.5rem 0;
+  color: #b3b5c6;
+}
