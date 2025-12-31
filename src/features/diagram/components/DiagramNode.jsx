@@ -1,8 +1,17 @@
+import { useRef } from "react";
+
 export function DiagramNodeComponent({ node, onDelete, rootRef }) {
+  const ref = useRef();
+
   return (
     <div
       key={node.id}
-      ref={rootRef}
+      ref={(value) => {
+        ref.current = value ?? undefined;
+        typeof rootRef === "function"
+          ? rootRef(value)
+          : (rootRef.current = value);
+      }}
       style={{
         position: "absolute",
         left: node.x,
