@@ -7,6 +7,8 @@ export const Diagram = ({ nodes, onDeleteNode }) => {
   const nodesRef = useRef(new Map());
   const [arrows, setArrows] = useState([]);
 
+  // setState внутри useLayoutEffect вызывают перерисовку сразу же в рамках таски
+  // setState внутри useEffect вызываются перерисовку в следующим тике(в следующей таске)
   useLayoutEffect(() => {
     const arrows = [];
     nodes.forEach((node) => {
