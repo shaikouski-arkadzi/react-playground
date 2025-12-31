@@ -8,6 +8,7 @@ import MainUseDeferredValue from "features/useDeferredValue";
 import MainProgressiveImage from "features/progressiveImage";
 import MainAccordion from "features/accordion";
 import FunctionAsChildren from "features/functionAsChildren";
+import DiagramMain from "features/diagram";
 
 const componentsMenu = [
   {
@@ -106,6 +107,16 @@ const componentsMenu = [
       {
         name: "Main",
         component: <FunctionAsChildren />,
+      },
+    ],
+  },
+  {
+    title: "Diagram",
+    description: "useLayoutEffect and callback Ref",
+    items: [
+      {
+        name: "Main",
+        component: <DiagramMain />,
       },
     ],
   },
